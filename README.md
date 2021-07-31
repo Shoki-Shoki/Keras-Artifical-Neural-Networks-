@@ -1,3 +1,8 @@
-# Keras-Artifical-Neural-Networks-
+Deploy Machine Learning Pipeline on AWS Fargate
 
-Using Keras for simple projects from Autoencoder to VAC 
+Technology used:
+
+1. Docker Container
+2. Amazon Elastic Container Service (ECS)
+3. AWS Fargate and serverless deployment
+4. 
