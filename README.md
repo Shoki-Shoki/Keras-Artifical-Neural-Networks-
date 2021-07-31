@@ -4,15 +4,24 @@ Deploy Machine Learning Pipeline on AWS Fargate
 
 Technology used:
 
-1. Docker Container
-2. Amazon Elastic Container Service (ECS)
-3. AWS Fargate and serverless deployment
+1. Docker Container.
+2. Amazon Elastic Container Service (ECS).
+3. AWS Fargate and serverless deployment.
+4. Front-end(HTML)
+5. Back-end(Flask)
+
+
+Tasks
+
+1. Train and develop a machine learning pipeline for deployment.
+2. Build a web app using a Flask framework. It will use the trained ML pipeline to generate predictions on new data points in real-time.
+3. Build and push a Docker image onto Amazon Elastic Container Registry.
+4. Create and execute a task to deploy the app using AWS Fargate serverless infrastructure.
 
 
 Overview
 
 Dataset
-
 This is a dataset from UCI called Default of Credit Card Clients Dataset. This dataset contains information on default payments, demographic factors, credit data, payment history, and billing statements of credit card clients in Taiwan from April 2005 to September 2005. There are 24,000 samples and 25 features. Short descriptions of each column are as follows:
 
 ID: ID of each client
